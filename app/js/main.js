@@ -1,17 +1,10 @@
-setMainBlockHeight = function() {
-	var h = $(".invoice-list").height();
-	h = h.toString();
-	var el = $(".invoice-monitor")[0];
-	el.style.height = h + "px";
-}
-window.addEventListener('load', setMainBlockHeight, false);
-window.addEventListener('resize', setMainBlockHeight, false);
-
+// Set class to sortoption
 $("th").on('click', function(){
     $("th").removeClass('active');
     $(this).addClass('active');
 });
 
+// Open filter area above invoice list
 toggleSearchBar = function(){
 	if($(".invoice-list form").height() > 0) {
     $(".invoice-list form").animate({"height": "0px"}, 200);
@@ -20,12 +13,13 @@ toggleSearchBar = function(){
 	}
 }
 
+// Set class->style to active invoice
 toggleActiveInvoice = function(e) {
-	console.log(e);
     $("tbody tr").removeClass('active');
     $(e).addClass('active');
 }
 
+// Toggle menu from the right
 toggleMenu = function() {
 	var w = window.innerWidth;
 	var menuState = $("header nav").css("left");

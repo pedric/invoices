@@ -5,6 +5,10 @@
 html, body {
   margin: 0; }
 
+html {
+  font-family: 'Roboto', sans-serif; }
+
+/* Page header (menu) & invoice list header */
 header img {
   position: fixed;
   top: 35px;
@@ -44,20 +48,6 @@ header nav {
         header nav ul li a:hover {
           border-bottom: 4px solid white; }
 
-.clearfix:after {
-  content: " ";
-  visibility: hidden;
-  display: block;
-  height: 0;
-  clear: both; }
-
-html {
-  font-family: 'Roboto', sans-serif; }
-
-.row {
-  float: left;
-  width: 100%; }
-
 h1 {
   color: #0277FF;
   margin: 29px auto;
@@ -68,14 +58,7 @@ h1 {
     h1 span:hover {
       cursor: pointer; }
 
-th.active {
-  color: #0277FF; }
-
-tr.active {
-  background: rgba(195, 195, 195, 0.09);
-  border-left: 2px solid #0277FF; }
-
-/* Main-content */
+/* Left block (invoices list) */
 .invoice-list {
   position: absolute;
   top: 0;
@@ -122,6 +105,8 @@ tr.active {
         padding-left: 33px; }
       .invoice-list > div > div thead th {
         text-align: left; }
+        .invoice-list > div > div thead th:hover {
+          cursor: pointer; }
         .invoice-list > div > div thead th img {
           vertical-align: middle; }
       .invoice-list > div > div tr {
@@ -130,15 +115,21 @@ tr.active {
       .invoice-list > div > div tbody tr:hover {
         background: rgba(195, 195, 195, 0.09);
         cursor: pointer; }
+  .invoice-list th.active {
+    color: #0277FF; }
+  .invoice-list tr.active {
+    background: rgba(195, 195, 195, 0.09);
+    border-left: 2px solid #0277FF; }
 
+/* Right block (view specific invoices)*/
 .invoice-monitor {
   position: fixed;
   box-sizing: border-box;
   right: 0;
   width: calc(100vw - 800px);
   height: 100vh;
-  background: #015abf;
-  background: url(../img/tower.png);
+  background-color: #015abf;
+  background-image: url(../img/tower.png);
   background-size: cover;
   background-position: bottom center;
   background-repeat: no-repeat; }
