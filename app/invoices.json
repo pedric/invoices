@@ -1,0 +1,222 @@
+[
+	{
+		"id": "1",
+		"type": "Checking",
+		"account_name": "1267486**** - Wolfe",
+		"status": "Active",
+		"currency": "usd",
+		"balance": "$6,266.33",
+		"img": "trump-placeholder.jpg",
+		"notes": "Lorem ipsum dolor sit amet, viris blandit mediocrem id.",
+		"date": "20160507"
+	},
+	{
+		"id": "2",
+		"type": "Savings",
+		"account_name": "5719371**** - Maengune",
+		"status": "Active",
+		"currency": "usd",
+		"balance": "$10,998.10",
+		"img": "hulk-trump-placeholder.jpg",
+		"notes": "Lorem ipsum dolor sit amet, viris blandit mediocrem id.",
+		"date": "20160308"
+	},
+	{
+		"id": "3",
+		"type": "Savings",
+		"account_name": "7125781**** - Kaiser",
+		"status": "Deactivated",
+		"currency": "usd",
+		"balance": "$23.86",
+		"img": "grouchomarx-trump-placeholder.jpg",
+		"notes": "Lorem ipsum dolor sit amet, viris blandit mediocrem id.",
+		"date": "20160504"
+	},
+	{
+		"id": "4",
+		"type": "Checking",
+		"account_name": "1267486**** - Wolfe",
+		"status": "Active",
+		"currency": "usd",
+		"balance": "$6,266.33",
+		"img": "trump-placeholder.jpg",
+		"notes": "Lorem ipsum dolor sit amet, viris blandit mediocrem id.",
+		"date": "20161213"
+	},
+	{
+		"id": "5",
+		"type": "Savings",
+		"account_name": "5719371**** - Maengune",
+		"status": "Active",
+		"currency": "usd",
+		"balance": "$10,998.10",
+		"img": "hulk-trump-placeholder.jpg",
+		"notes": "Lorem ipsum dolor sit amet, viris blandit mediocrem id.",
+		"date": "20160709"
+	},
+	{
+		"id": "6",
+		"type": "Savings",
+		"account_name": "7125781**** - Kaiser",
+		"status": "Deactivated",
+		"currency": "usd",
+		"balance": "$23.86",
+		"img": "grouchomarx-trump-placeholder.jpg",
+		"notes": "Lorem ipsum dolor sit amet, viris blandit mediocrem id.",
+		"date": "20160814"
+	},
+	{
+		"id": "7",
+		"type": "Checking",
+		"account_name": "1267486**** - Wolfe",
+		"status": "Active",
+		"currency": "usd",
+		"balance": "$6,266.33",
+		"img": "trump-placeholder.jpg",
+		"notes": "Lorem ipsum dolor sit amet, viris blandit mediocrem id.",
+		"date": "20160319"
+	},
+	{
+		"id": "8",
+		"type": "Savings",
+		"account_name": "5719371**** - Maengune",
+		"status": "Active",
+		"currency": "usd",
+		"balance": "$10,998.10",
+		"img": "hulk-trump-placeholder.jpg",
+		"notes": "Lorem ipsum dolor sit amet, viris blandit mediocrem id.",
+		"date": "20161004"
+	},
+	{
+		"id": "9",
+		"type": "Savings",
+		"account_name": "7125781**** - Kaiser",
+		"status": "Deactivated",
+		"currency": "usd",
+		"balance": "$23.86",
+		"img": "grouchomarx-trump-placeholder.jpg",
+		"notes": "Lorem ipsum dolor sit amet, viris blandit mediocrem id.",
+		"date": "20161119"
+	},
+	{
+		"id": "10",
+		"type": "Checking",
+		"account_name": "1267486**** - Wolfe",
+		"status": "Active",
+		"currency": "usd",
+		"balance": "$6,266.33",
+		"img": "trump-placeholder.jpg",
+		"notes": "Lorem ipsum dolor sit amet, viris blandit mediocrem id.",
+		"date": "20160204"
+	},
+	{
+		"id": "11",
+		"type": "Savings",
+		"account_name": "5719371**** - Maengune",
+		"status": "Active",
+		"currency": "usd",
+		"balance": "$10,998.10",
+		"img": "hulk-trump-placeholder.jpg",
+		"notes": "Lorem ipsum dolor sit amet, viris blandit mediocrem id.",
+		"date": "20161204"
+	},
+	{
+		"id": "12",
+		"type": "Savings",
+		"account_name": "7125781**** - Kaiser",
+		"status": "Deactivated",
+		"currency": "usd",
+		"balance": "$23.86",
+		"img": "grouchomarx-trump-placeholder.jpg",
+		"notes": "Lorem ipsum dolor sit amet, viris blandit mediocrem id.",
+		"date": "20160923"
+	},
+	{
+		"id": "13",
+		"type": "Checking",
+		"account_name": "1267486**** - Wolfe",
+		"status": "Active",
+		"currency": "usd",
+		"balance": "$6,266.33",
+		"img": "trump-placeholder.jpg",
+		"notes": "Lorem ipsum dolor sit amet, viris blandit mediocrem id.",
+		"date": "20160427"
+	},
+	{
+		"id": "14",
+		"type": "Savings",
+		"account_name": "5719371**** - Maengune",
+		"status": "Active",
+		"currency": "usd",
+		"balance": "$10,998.10",
+		"img": "hulk-trump-placeholder.jpg",
+		"notes": "Lorem ipsum dolor sit amet, viris blandit mediocrem id.",
+		"date": "20160824"
+	},
+	{
+		"id": "15",
+		"type": "Savings",
+		"account_name": "7125781**** - Kaiser",
+		"status": "Deactivated",
+		"currency": "usd",
+		"balance": "$23.86",
+		"img": "grouchomarx-trump-placeholder.jpg",
+		"notes": "Lorem ipsum dolor sit amet, viris blandit mediocrem id.",
+		"date": "20160922"
+	},
+	{
+		"id": "16",
+		"type": "Checking",
+		"account_name": "1267486**** - Wolfe",
+		"status": "Active",
+		"currency": "usd",
+		"balance": "$6,266.33",
+		"img": "trump-placeholder.jpg",
+		"notes": "Lorem ipsum dolor sit amet, viris blandit mediocrem id.",
+		"date": "20160123"
+	},
+	{
+		"id": "17",
+		"type": "Savings",
+		"account_name": "5719371**** - Maengune",
+		"status": "Active",
+		"currency": "usd",
+		"balance": "$10,998.10",
+		"img": "hulk-trump-placeholder.jpg",
+		"notes": "Lorem ipsum dolor sit amet, viris blandit mediocrem id.",
+		"date": "20160606"
+	},
+	{
+		"id": "18",
+		"type": "Savings",
+		"account_name": "7125781**** - Kaiser",
+		"status": "Deactivated",
+		"currency": "usd",
+		"balance": "$23.86",
+		"img": "grouchomarx-trump-placeholder.jpg",
+		"notes": "Lorem ipsum dolor sit amet, viris blandit mediocrem id.",
+		"date": "20160729"
+	},
+	{
+		"id": "19",
+		"type": "Checking",
+		"account_name": "1267486**** - Wolfe",
+		"status": "Active",
+		"currency": "usd",
+		"balance": "$6,266.33",
+		"img": "trump-placeholder.jpg",
+		"notes": "Lorem ipsum dolor sit amet, viris blandit mediocrem id.",
+		"date": "20160224"
+	},
+	{
+		"id": "20",
+		"type": "Savings",
+		"account_name": "5719371**** - Maengune",
+		"status": "Active",
+		"currency": "usd",
+		"balance": "$10,998.10",
+		"img": "hulk-trump-placeholder.jpg",
+		"notes": "Lorem ipsum dolor sit amet, viris blandit mediocrem id.",
+		"date": "20160503"
+	}
+]
