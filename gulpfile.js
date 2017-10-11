@@ -15,7 +15,7 @@ gulp.task('serve', ['sass'], function() {
 
 // Sass -> CSS
 gulp.task('sass', function() {
-  return gulp.src("app/scss/*.scss")
+  return gulp.src("app/scss/main.scss")
     .pipe(sass())
     .pipe(gulp.dest("app/css"))
     .pipe(browserSync.stream());

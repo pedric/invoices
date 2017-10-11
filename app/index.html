@@ -20,70 +20,73 @@
 	</nav>
 </header>
 
-<!-- Invoices-list (left block) -->
-<section class="invoice-list">
-	<div>
-		<h1>All invoices - 2016<span onclick="toggleSearchBar()">•••</span></h1>
-		<!-- Search -->
-		<form>
-			<div>
-				<input type="text" data-ng-model="searchInvoice" placeholder="Search">
-			</div>
-		</form>
+<!-- Flex-wrapper -->
+<div class="flex-wrapper">
+	<!-- Invoices-list (left block) -->
+	<section class="invoice-list">
 		<div>
-			<table>
-			<h2>Invoices</h2>
-				<thead>
-				  <tr>
-				    <th data-ng-click="setSortOption('type')">Type <img src="img/arrow-down.svg" alt="#" /></th>
-				    <th data-ng-click="setSortOption('account_name')">Account Name <img src="img/arrow-down.svg" alt="#" /></th>
-				    <th data-ng-click="setSortOption('status')">Status <img src="img/arrow-down.svg" alt="#" /></th>
-				    <th data-ng-click="setSortOption('currency')">Currency <img src="img/arrow-down.svg" alt="#" /></th>
-				    <th data-ng-click="setSortOption('balance')">Balance <img src="img/arrow-down.svg" alt="#" /></th>
-				  </tr>
-				</thead>
-				<tbody>
-				  <tr data-ng-repeat="item in invoices | orderBy:sortOption:ascDescToggle | filter:searchInvoice" data-ng-click="activeInvoice(item)" onclick="toggleActiveInvoice(this)">
-				    <td>{{ item.type }}</td>
-				    <td>{{ item.account_name | uppercase }}</td>
-				    <td>{{ item.status }}</td>
-				    <td>{{ item.currency | uppercase }}</td>
-				    <td>{{ item.balance }}</td>
-				  </tr>
-				 </tbody>
-			</table>
+			<h1>All invoices - 2016<span onclick="toggleSearchBar()">•••</span></h1>
+			<!-- Search -->
+			<form>
+				<div>
+					<input type="text" data-ng-model="searchInvoice" placeholder="Search">
+				</div>
+			</form>
+			<div>
+				<table>
+				<h2>Invoices</h2>
+					<thead>
+					  <tr>
+					    <th data-ng-click="setSortOption('type')">Type <img src="img/arrow-down.svg" alt="#" /></th>
+					    <th data-ng-click="setSortOption('account_name')">Account Name <img src="img/arrow-down.svg" alt="#" /></th>
+					    <th data-ng-click="setSortOption('status')">Status <img src="img/arrow-down.svg" alt="#" /></th>
+					    <th data-ng-click="setSortOption('currency')">Currency <img src="img/arrow-down.svg" alt="#" /></th>
+					    <th data-ng-click="setSortOption('balance')">Balance <img src="img/arrow-down.svg" alt="#" /></th>
+					  </tr>
+					</thead>
+					<tbody>
+					  <tr data-ng-repeat="item in invoices | orderBy:sortOption:ascDescToggle | filter:searchInvoice" data-ng-click="activeInvoice(item)" onclick="toggleActiveInvoice(this)">
+					    <td>{{ item.type }}</td>
+					    <td>{{ item.account_name | uppercase }}</td>
+					    <td>{{ item.status }}</td>
+					    <td>{{ item.currency | uppercase }}</td>
+					    <td>{{ item.balance }}</td>
+					  </tr>
+					 </tbody>
+				</table>
+			</div>
 		</div>
-	</div>
-</section>
+	</section>
 
-<!-- "Monitor" (right block) -->
-<section class="invoice-monitor">
-	<div data-ng-show="displayActiveItem">
-		<img class="close-icon" src="img/close.svg" alt="Close icon" data-ng-click="unsetActiveInvoice()" />
-		<div>
-			<img src="img/{{ activeItem.img }}" alt="#" />
-		</div>
-		<h3>{{ activeItem.account_name | uppercase }}</h3>
-		<div class="row">
+	<!-- "Monitor" (right block) -->
+	<section class="invoice-monitor">
+		<div data-ng-show="displayActiveItem">
+			<img class="close-icon" src="img/close.svg" alt="Close icon" data-ng-click="unsetActiveInvoice()" />
 			<div>
-				<h4>type</h4>
-				<p>{{ activeItem.type }}</p>
-				<h4>status</h4>
-				<p>{{ activeItem.status }}</p>
-				<h4>balance</h4>
-				<p>{{ activeItem.balance }}</p>
+				<img src="img/{{ activeItem.img }}" alt="#" />
 			</div>
-			<div>
-				<h4>account name</h4>
-				<p>{{ activeItem.account_name | uppercase }}</p>
-				<h4>currency</h4>
-				<p>{{ activeItem.currency | uppercase }}</p>
-				<h4>notes</h4>
-				<p>{{ activeItem.notes }}</p>
+			<h3>{{ activeItem.account_name | uppercase }}</h3>
+			<div class="row">
+				<div>
+					<h4>type</h4>
+					<p>{{ activeItem.type }}</p>
+					<h4>status</h4>
+					<p>{{ activeItem.status }}</p>
+					<h4>balance</h4>
+					<p>{{ activeItem.balance }}</p>
+				</div>
+				<div>
+					<h4>account name</h4>
+					<p>{{ activeItem.account_name | uppercase }}</p>
+					<h4>currency</h4>
+					<p>{{ activeItem.currency | uppercase }}</p>
+					<h4>notes</h4>
+					<p>{{ activeItem.notes }}</p>
+				</div>
 			</div>
 		</div>
-	</div>
-</section>
+	</section>
+</div>
 
 <!-- Angular / jQuery / Controller / Main.js -->
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
